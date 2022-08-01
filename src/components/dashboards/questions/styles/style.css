@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    .is-fullwidth-mobile {
+        width: 100%;
+    }
+}
+
+.menu-list a.is-active{
+    background-color: #785FC6;
+    color: rgb(255, 255, 255);
+}
+
+.tabs.is-toggle li.is-active a{
+    background-color: #785FC6;
+    border-color: #ffffff;
+    border: 1px solid #785FC6;
+    color: #fff;
+    z-index: 1;
+}
+
+.breadcrumb a {
+    align-items: center;
+    color: #785FC6;
+    display: flex;
+    justify-content: center;
+    padding: 0 0.75em;
+}
